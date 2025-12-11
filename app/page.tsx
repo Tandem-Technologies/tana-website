@@ -498,11 +498,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left */}
           <div className="flex flex-col items-start gap-4">
-            <a href="https://www.tandem-tech.co.uk" className="relative h-20 hover:opacity-80 transition-opacity">
+            <a
+              href="https://www.tandem-tech.co.uk"
+              className="relative h-20 hover:opacity-80 transition-opacity"
+            >
               <img
-              src="/assets/tandem-logo.png"
-              alt="Tandem Logo"
-              className="w-full h-full object-contain"
+                src="/assets/tandem-logo.png"
+                alt="Tandem Logo"
+                className="w-full h-full object-contain"
               />
             </a>
             <span className="text-sm pl-4 text-neutral-400">
@@ -512,7 +515,7 @@ export default function Home() {
 
           {/* Right */}
           <div className="flex items-center gap-6">
-            <a
+            {/* <a
               href="#"
               className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
@@ -523,9 +526,9 @@ export default function Home() {
               className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Terms
-            </a>
+            </a> */}
             <a
-              href="#"
+              href="mailto:team@tandem-tech.co.uk"
               className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Contact
