@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tandem Technologies - AI-Powered Voice Agent for Healthcare",
+  title: "Tana - AI Clinic Receptionist",
   description:
     "Meet Tana. Your 24/7 Patient Concierge. Tana handles patient calls, books appointments, and answers queries instantly.",
 };
