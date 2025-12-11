@@ -94,59 +94,101 @@ export default function Home() {
           <div className="my-8 flex items-center justify-center gap-1 h-16">
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "20%" }}
+              style={{
+                animation: "soundwave-2 1.4s ease-in-out infinite",
+                animationDelay: "0.1s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "40%" }}
+              style={{
+                animation: "soundwave-4 0.9s ease-in-out infinite",
+                animationDelay: "0.3s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "65%" }}
+              style={{
+                animation: "soundwave-1 1.6s ease-in-out infinite",
+                animationDelay: "0s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "45%" }}
+              style={{
+                animation: "soundwave-5 1.1s ease-in-out infinite",
+                animationDelay: "0.5s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "80%" }}
+              style={{
+                animation: "soundwave-3 1.3s ease-in-out infinite",
+                animationDelay: "0.2s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "55%" }}
+              style={{
+                animation: "soundwave-1 1s ease-in-out infinite",
+                animationDelay: "0.4s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "95%" }}
+              style={{
+                animation: "soundwave-4 1.5s ease-in-out infinite",
+                animationDelay: "0.1s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "70%" }}
+              style={{
+                animation: "soundwave-2 1.2s ease-in-out infinite",
+                animationDelay: "0.6s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "50%" }}
+              style={{
+                animation: "soundwave-5 0.95s ease-in-out infinite",
+                animationDelay: "0.3s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "75%" }}
+              style={{
+                animation: "soundwave-3 1.4s ease-in-out infinite",
+                animationDelay: "0s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "60%" }}
+              style={{
+                animation: "soundwave-1 1.1s ease-in-out infinite",
+                animationDelay: "0.45s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "35%" }}
+              style={{
+                animation: "soundwave-4 1.3s ease-in-out infinite",
+                animationDelay: "0.2s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "50%" }}
+              style={{
+                animation: "soundwave-2 1.05s ease-in-out infinite",
+                animationDelay: "0.5s",
+              }}
             />
             <div
               className="w-1 bg-foreground/30 rounded-full"
-              style={{ height: "25%" }}
+              style={{
+                animation: "soundwave-5 1.35s ease-in-out infinite",
+                animationDelay: "0.15s",
+              }}
             />
           </div>
 
