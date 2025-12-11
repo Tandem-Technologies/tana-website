@@ -38,13 +38,13 @@ export default function Home() {
           <div className="flex items-center gap-8">
             <a
               href="#features"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Features
             </a>
             <a
               href="#contact"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Get in Touch
             </a>
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
+          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">
             <span className="gradient-text">Meet Tana.</span>
             <br />
             Your 24/7 Patient
@@ -193,7 +193,7 @@ export default function Home() {
           </div>
 
           {/* Supporting Text */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
+          <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-2xl mx-auto mb-10 text-balance">
             Tana handles patient calls, books appointments, and answers queries
             instantly - so your team can focus on care, not admin.
           </p>
@@ -220,7 +220,7 @@ export default function Home() {
           </div>
 
           {/* Trust Badges */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-neutral-300">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500" />
               <span>HIPAA Compliant</span>
@@ -242,10 +242,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4">
               Everything Your Front Desk Needs
             </h2>
-            <p className="text-lg text-muted-foreground max-w-xl mx-auto">
+            <p className="text-lg text-neutral-300 leading-relaxed max-w-xl mx-auto">
               Tana handles the calls, so your staff handles the care.
             </p>
           </div>
@@ -253,81 +253,81 @@ export default function Home() {
           {/* Features Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Feature 1 */}
-            <div className="group glass-card p-8 hover:bg-card/80 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
+            <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Calendar className="w-6 h-6" />
               </div>
-              <h3 className="font-display text-xl font-semibold mb-3">
+              <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
                 Smart Scheduling
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-base text-neutral-300 leading-relaxed">
                 Tana books and reschedules appointments without human
                 intervention.
               </p>
             </div>
 
             {/* Feature 2 */}
-            <div className="group glass-card p-8 hover:bg-card/80 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
+            <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <MessageSquare className="w-6 h-6" />
               </div>
-              <h3 className="font-display text-xl font-semibold mb-3">
+              <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
                 Natural Conversations
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-base text-neutral-300 leading-relaxed">
                 Human-like dialogue that patients trust. No robotic scripts.
               </p>
             </div>
 
             {/* Feature 3 */}
-            <div className="group glass-card p-8 hover:bg-card/80 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
+            <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Clock className="w-6 h-6" />
               </div>
-              <h3 className="font-display text-xl font-semibold mb-3">
+              <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
                 24/7 Availability
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-base text-neutral-300 leading-relaxed">
                 Never miss a call. Tana works nights, weekends, and holidays.
               </p>
             </div>
 
             {/* Feature 4 */}
-            <div className="group glass-card p-8 hover:bg-card/80 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
+            <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Shield className="w-6 h-6" />
               </div>
-              <h3 className="font-display text-xl font-semibold mb-3">
+              <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
                 HIPAA Compliant
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-base text-neutral-300 leading-relaxed">
                 Enterprise-grade security. Your patients' data stays protected.
               </p>
             </div>
 
             {/* Feature 5 */}
-            <div className="group glass-card p-8 hover:bg-card/80 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
+            <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Zap className="w-6 h-6" />
               </div>
-              <h3 className="font-display text-xl font-semibold mb-3">
+              <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
                 Instant Integration
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-base text-neutral-300 leading-relaxed">
                 Connects with your favourite EHR and scheduling systems
                 seamlessly.
               </p>
             </div>
 
             {/* Feature 6 */}
-            <div className="group glass-card p-8 hover:bg-card/80 transition-all duration-300">
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
+            <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Users className="w-6 h-6" />
               </div>
-              <h3 className="font-display text-xl font-semibold mb-3">
+              <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
                 Adaptive Voice Recognition
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-base text-neutral-300 leading-relaxed">
                 Serve diverse patient populations with intelligent accent
                 recognition.
               </p>
@@ -460,12 +460,12 @@ export default function Home() {
 
             {/* Content */}
             <div className="relative z-10">
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
                 Ready to Transform Your
                 <br />
                 Patient Experience?
               </h2>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+              <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-2xl mx-auto mb-10">
                 Join forward-thinking healthcare providers using Tana to reduce
                 wait times and improve patient satisfaction.
               </p>
@@ -498,14 +498,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left */}
           <div className="flex flex-col items-start gap-4">
-            <div className="relative h-20">
+            <a href="https://www.tandem-tech.co.uk" className="relative h-20 hover:opacity-80 transition-opacity">
               <img
-                src="/assets/tandem-logo.png"
-                alt="Tandem Logo"
-                className="w-full h-full object-contain"
+              src="/assets/tandem-logo.png"
+              alt="Tandem Logo"
+              className="w-full h-full object-contain"
               />
-            </div>
-            <span className="text-sm pl-4 text-muted-foreground">
+            </a>
+            <span className="text-sm pl-4 text-neutral-400">
               © 2025 Tandem Technologies. All rights reserved.
             </span>
           </div>
@@ -514,19 +514,19 @@ export default function Home() {
           <div className="flex items-center gap-6">
             <a
               href="#"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Privacy
             </a>
             <a
               href="#"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Terms
             </a>
             <a
               href="#"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Contact
             </a>
