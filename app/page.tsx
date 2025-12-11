@@ -21,29 +21,17 @@ export default function Home() {
         <div className="mx-auto max-w-6xl flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="relative w-8 h-8">
-              <svg viewBox="0 0 32 32" className="w-full h-full">
-                <circle
-                  cx="14"
-                  cy="16"
-                  r="8"
-                  fill="currentColor"
-                  className="text-foreground"
-                />
-                <circle
-                  cx="18"
-                  cy="16"
-                  r="8"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="text-foreground"
-                />
-              </svg>
-            </div>
-            <span className="font-display font-semibold text-lg">
-              Tandem Technologies
-            </span>
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="relative h-12 hover:opacity-80 transition-opacity"
+            >
+              {/* Logo PNG, lives at public/assets/tana.png */}
+              <img
+                src="/assets/tana.png"
+                alt="Tana Logo"
+                className="w-full h-full object-contain"
+              />
+            </button>
           </div>
 
           {/* Nav Links */}
@@ -165,7 +153,7 @@ export default function Home() {
           {/* Supporting Text */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
             Tana handles patient calls, books appointments, and answers queries
-            instantly—so your team can focus on care, not admin.
+            instantly - so your team can focus on care, not admin.
           </p>
 
           {/* CTA Buttons */}
@@ -173,18 +161,20 @@ export default function Home() {
             <button
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground font-semibold h-14 rounded-xl px-10 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.25)] hover:scale-[1.03] active:scale-[0.98] transition-all duration-200"
               onClick={() => {
-              window.open(
-                "https://calendly.com/team-tandem-tech/introduction-demo-with-kaushik-co-founder-ceo?month=2025-12&date=2025-12-12",
-                "_blank"
-              );
+                window.open(
+                  "https://calendly.com/team-tandem-tech/introduction-demo-with-kaushik-co-founder-ceo?month=2025-12&date=2025-12-12",
+                  "_blank"
+                );
               }}
             >
               <Phone className="w-5 h-5" />
               Book a Demo
             </button>
-            <button className="inline-flex items-center justify-center gap-2 border-2 border-primary/30 bg-transparent text-foreground h-12 rounded-xl px-8 text-base hover:bg-primary/10 hover:border-primary/50 transition-all duration-200">
-              Learn More
-            </button>
+            <a href="#features">
+              <button className="inline-flex items-center justify-center gap-2 border-2 border-primary/30 bg-transparent text-foreground h-12 rounded-xl px-8 text-base hover:bg-primary/10 hover:border-primary/50 transition-all duration-200">
+                Learn More
+              </button>
+            </a>
           </div>
 
           {/* Trust Badges */}
@@ -437,10 +427,25 @@ export default function Home() {
                 Join forward-thinking healthcare providers using Tana to reduce
                 wait times and improve patient satisfaction.
               </p>
-              <button className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground font-semibold h-14 rounded-xl px-10 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.25)] hover:scale-[1.03] active:scale-[0.98] transition-all duration-200">
-                Schedule a Demo
-                <ArrowRight className="w-5 h-5" />
-              </button>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button
+                  className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground font-semibold h-14 rounded-xl px-10 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.25)] hover:scale-[1.03] active:scale-[0.98] transition-all duration-200"
+                  onClick={() => {
+                    window.open(
+                      "https://calendly.com/team-tandem-tech/introduction-demo-with-kaushik-co-founder-ceo?month=2025-12&date=2025-12-12",
+                      "_blank"
+                    );
+                  }}
+                >
+                  <Phone className="w-5 h-5" />
+                  Book a Demo
+                </button>
+                <a href="mailto:team@tandem-tech.co.uk">
+                  <button className="inline-flex items-center justify-center gap-2 border-2 border-primary/30 bg-transparent text-foreground h-14 rounded-xl px-10 text-lg hover:bg-primary/10 hover:border-primary/50 transition-all duration-200">
+                    Contact Us
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -450,28 +455,15 @@ export default function Home() {
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left */}
-          <div className="flex flex-col md:flex-row items-center gap-4">
-            <div className="relative w-6 h-6">
-              <svg viewBox="0 0 32 32" className="w-full h-full">
-                <circle
-                  cx="14"
-                  cy="16"
-                  r="8"
-                  fill="currentColor"
-                  className="text-foreground"
-                />
-                <circle
-                  cx="18"
-                  cy="16"
-                  r="8"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="text-foreground"
-                />
-              </svg>
+          <div className="flex flex-col items-start gap-4">
+            <div className="relative h-20">
+              <img
+                src="/assets/tandem-logo.png"
+                alt="Tandem Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
-            <span className="text-sm text-muted-foreground">
+            <span className="text-sm pl-4 text-muted-foreground">
               © 2025 Tandem Technologies. All rights reserved.
             </span>
           </div>

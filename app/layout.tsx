@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   );
