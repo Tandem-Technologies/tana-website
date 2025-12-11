@@ -223,7 +223,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-neutral-300">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500" />
-              <span>HIPAA Compliant</span>
+              <span>HIPAA & GDPR Compliant</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500" />
@@ -298,7 +298,7 @@ export default function Home() {
                 <Shield className="w-6 h-6" />
               </div>
               <h3 className="font-display text-3xl md:text-4xl font-semibold tracking-tight mb-3">
-                HIPAA Compliant
+                HIPAA & GDPR Compliant
               </h3>
               <p className="text-base text-neutral-300 leading-relaxed">
                 Enterprise-grade security. Your patients' data stays protected.
