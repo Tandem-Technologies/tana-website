@@ -17,15 +17,14 @@ export default function Home() {
   return (
     <main className="relative">
       {/* NAVBAR */}
-      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/80 backdrop-blur-sm border-b border-border/50">
+      {/* <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/80 backdrop-blur-sm border-b border-border/50">
         <div className="mx-auto max-w-6xl flex items-center justify-between">
-          {/* Logo */}
           <div className="flex items-center gap-3">
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="relative h-12 hover:opacity-80 transition-opacity"
             >
-              {/* Logo PNG, lives at public/assets/tana.png */}
+              
               <img
                 src="/assets/tana.png"
                 alt="Tana Logo"
@@ -34,7 +33,6 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Nav Links */}
           <div className="flex items-center gap-8">
             <a
               href="#features"
@@ -50,48 +48,44 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       {/* HERO SECTION */}
       <section className="relative min-h-screen pt-20 px-6 flex items-center justify-center overflow-hidden">
         {/* Background Orbs */}
-        <div className="glow-orb w-[600px] h-[600px] -top-32 -left-32" />
-        <div
+        {/* <div className="glow-orb w-[600px] h-[600px] -top-32 -left-32" /> */}
+        {/* <div
           className="glow-orb w-[500px] h-[500px] top-1/3 -right-24"
           style={{ animationDelay: "2s" }}
-        />
+        /> */}
 
         {/* Grid Overlay */}
-        <div
+        {/* <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
             backgroundImage:
               "linear-gradient(hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px)",
             backgroundSize: "60px 60px",
           }}
-        />
+        /> */}
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-5xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-8">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-8">
             <Sparkles className="w-4 h-4" />
             <span className="text-sm font-medium">
               AI-Powered Voice Agent for Healthcare
             </span>
-          </div>
+          </div> */}
 
           {/* Headline */}
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">
-            <span className="gradient-text">Meet Tana.</span>
-            <br />
-            Your 24/7 Patient
-            <br />
-            Concierge.
+            <span>This webpage is not in use.</span>
           </h1>
 
           {/* Waveform Bars */}
-          <div className="my-8 flex items-center justify-center gap-1 h-16">
+          {/* <div className="my-8 flex items-center justify-center gap-1 h-16">
             <div
               className="w-1 bg-foreground/30 rounded-full"
               style={{
@@ -190,16 +184,16 @@ export default function Home() {
                 animationDelay: "0.15s",
               }}
             />
-          </div>
+          </div> */}
 
           {/* Supporting Text */}
-          <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-2xl mx-auto mb-10 text-balance">
+          {/* <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-2xl mx-auto mb-10 text-balance">
             Tana handles patient calls, books appointments, and answers queries
             instantly - so your team can focus on care, not admin.
-          </p>
+          </p> */}
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <button
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground font-semibold h-14 rounded-xl px-10 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.25)] hover:scale-[1.03] active:scale-[0.98] transition-all duration-200"
               onClick={() => {
@@ -217,10 +211,10 @@ export default function Home() {
                 Learn More
               </button>
             </a>
-          </div>
+          </div> */}
 
           {/* Trust Badges */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-neutral-300">
+          {/* <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-neutral-300">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500" />
               <span>HIPAA & GDPR Compliant</span>
@@ -233,14 +227,13 @@ export default function Home() {
               <div className="w-2 h-2 rounded-full bg-green-500" />
               <span>No Hold Times</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* FEATURES SECTION */}
-      <section id="features" className="relative py-32 px-6">
+      {/* <section id="features" className="relative py-32 px-6">
         <div className="max-w-6xl mx-auto">
-          {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4">
               Everything Your Front Desk Needs
@@ -250,9 +243,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Features Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Feature 1 */}
             <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Calendar className="w-6 h-6" />
@@ -266,7 +257,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 2 */}
             <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <MessageSquare className="w-6 h-6" />
@@ -279,7 +269,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 3 */}
             <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Clock className="w-6 h-6" />
@@ -292,7 +281,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 4 */}
             <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Shield className="w-6 h-6" />
@@ -305,7 +293,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 5 */}
             <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Zap className="w-6 h-6" />
@@ -319,7 +306,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 6 */}
             <div className="group glass-card p-8 hover:bg-neutral-800/90 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-neutral-800 flex items-center justify-center mb-5 group-hover:bg-neutral-700 transition-colors">
                 <Users className="w-6 h-6" />
@@ -334,7 +320,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* TESTIMONIALS + STATS SECTION */}
       {/*
@@ -452,13 +438,11 @@ export default function Home() {
 */}
 
       {/* CONTACT / CTA SECTION */}
-      <section id="contact" className="relative py-32 px-6">
+      {/* <section id="contact" className="relative py-32 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="glass-card p-12 md:p-16 relative overflow-hidden">
-            {/* Glow Effect */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
 
-            {/* Content */}
             <div className="relative z-10">
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
                 Ready to Transform Your
@@ -491,13 +475,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FOOTER */}
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left */}
-          <div className="flex flex-col items-start gap-4">
+          {/* <div className="flex flex-col items-start gap-4">
             <a
               href="https://www.tandem-tech.co.uk"
               className="relative h-20 hover:opacity-80 transition-opacity"
@@ -511,7 +495,7 @@ export default function Home() {
             <span className="text-sm pl-4 text-neutral-400">
               © 2025 Tandem Technologies. All rights reserved.
             </span>
-          </div>
+          </div> */}
 
           {/* Right */}
           <div className="flex items-center gap-6">
@@ -527,12 +511,12 @@ export default function Home() {
             >
               Terms
             </a> */}
-            <a
+            {/* <a
               href="mailto:team@tandem-tech.co.uk"
               className="text-sm text-neutral-300 hover:text-foreground transition-colors"
             >
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </footer>
